@@ -53,6 +53,12 @@
       "text": "Attend yoga class",
       "day": "Feb 28th at 9:00am",
       "reminder": false
+    },
+    {
+      "text": "Throw out trash",
+      "day": "March 2 at 3:30pm",
+      "reminder": true,
+      "id": 11
     }
   ]
 }
