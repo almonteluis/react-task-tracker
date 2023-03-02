@@ -51,10 +51,11 @@ function App() {
   };
 
   return (
-    <div className='App'>
+    <div className='container'>
       <Header
         title='Task Tracker V1'
         onAdd={() => setShowAddTasks(!showAddTasks)}
+        showAdd={showAddTasks}
       />
       {showAddTasks && <AddTask onAdd={addTask} />}
       {tasks.length > 0 ? (
