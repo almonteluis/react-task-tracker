@@ -1,14 +1,13 @@
-import Task from "./Task"
+import Task from "./Task";
 
-const Tasks = ({tasks}) => {
+const Tasks = ({ tasks, onDelete }) => {
+  return (
+    <div>
+      {tasks.map((task) => (
+        <Task key={task.id} task={task} onDelete={onDelete} />
+      ))}
+    </div>
+  );
+};
 
-    return (
-        <div>
-            {tasks.map((task) => (
-               <Task key={task.id} task={task} />
-            ))}
-        </div>
-    )
-}
-
-export default Tasks
+export default Tasks;
