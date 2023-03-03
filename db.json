@@ -13,28 +13,16 @@
       "reminder": true
     },
     {
-      "id": 4,
-      "text": "Call Mom",
-      "day": "Feb 8th at 11:00am",
-      "reminder": true
-    },
-    {
       "id": 5,
       "text": "Buy a birthday gift for friend",
       "day": "Feb 10th at 4:00pm",
       "reminder": true
     },
     {
-      "id": 6,
-      "text": "Pay rent",
-      "day": "Feb 15th at 10:00am",
-      "reminder": true
-    },
-    {
       "id": 7,
       "text": "Clean the kitchen",
       "day": "Feb 18th at 3:00pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 8,
@@ -52,13 +40,25 @@
       "id": 10,
       "text": "Attend yoga class",
       "day": "Feb 28th at 9:00am",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Throw out trash",
       "day": "March 2 at 3:30pm",
       "reminder": true,
       "id": 11
+    },
+    {
+      "text": "jbvnwrjibvrw",
+      "day": "ojbdafsnjnbsfav",
+      "reminder": false,
+      "id": 12
+    },
+    {
+      "text": "jhadfbojnbbaergnkjo",
+      "day": "zsxdcfvghjb",
+      "reminder": true,
+      "id": 13
     }
   ]
 }
